@@ -1,0 +1,26 @@
+##############################################################################
+# inner galaxy PALFA
+# Model of PALFA survey 32 < l < 77 and |b| < 5 with full-resolution processing, 
+# from cordes 2006, lazarus 2015, and http://www.naic.edu/~astro/RXstatus/rcvrtabz.shtml
+# updated using Parent et al 2022
+##############################################################################
+  1.1  ! survey degradation factor
+  8.2  ! antenna gain (K/Jy)
+  268  ! integration time (s) 
+  0.064! sampling time (ms)
+  24.  ! system temperature (K)
+  1375.5 ! centre frequency (MHz)
+  322.4  ! bandwidth (MHz)
+  0.336 ! channel bandwidth (MHz)
+  2    ! number of polarizations   
+  3.35 ! full-width half maximum (arcmin)
+  0.   ! minimum RA (deg)
+  360. ! maximum RA (deg)
+  -1.   ! minimum DEC (deg)
+  38.  ! maximum DEC (deg)
+  32.   ! minimum Galactic longitude (deg)
+  77.   ! maximum Galactic longitude (deg)
+  0.   ! minimum abs(Galactic latitude) (deg)
+  5.   ! maximum abs(Galactic latitude) (deg)
+  0.65  ! fractional survey coverage (0-1)
+  9.0  ! minimum signal-to-noise ratio
