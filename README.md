@@ -7,7 +7,7 @@ Multi-wavelength Pulsar Population Synthesis
 
 I provide python scripts based on PsrPopPy2 that allow for a multi-wavelength population synthesis for Millisecond Pulsars (MSPs) and Canonical Pulsars (CPs) as done in Tabassum & Lorimer (2025, [arXiv:2504.02677](https://arxiv.org/abs/2504.02677)).
 
-This done by first synthesizing a population accounting for radio selection effects and then applying gamma-ray selection effects. 
+This is done by first synthesizing a population accounting for radio selection effects and then applying gamma-ray selection effects. 
 
 For MSPs, the radio synthesis is done using PsrPopPy2 framework with some modifications. Everything needed is provided in the scripts.
 
