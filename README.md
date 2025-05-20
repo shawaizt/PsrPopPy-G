@@ -11,7 +11,7 @@ This done by first synthesizing a population accounting for radio selection effe
 
 For MSPs, the radio synthesis is done using PsrPopPy2 framework with some modifications. Everything needed is provided in the scripts.
 
-For CPs, a program based on the work of Johnston & Karastergiou (2017, [2017MNRAS.467.3493J](https://doi.org/10.1093/mnras/stx377); [arXiv:1702.03616](https://arxiv.org/abs/1702.03616)) should be first used to get a list of evolved CPs and then multi-wavelength selection effects can then be applied using the provided python scripts. A fortran program, adapted from code kindly provided by Simon Johnston, is provided for this purpose.
+For CPs, a program based on the work of Johnston & Karastergiou (2017, [2017MNRAS.467.3493J](https://doi.org/10.1093/mnras/stx377); [arXiv:1702.03616](https://arxiv.org/abs/1702.03616)) should be first used to get a list of evolved CPs and then multi-wavelength selection effects can then be applied using the provided python scripts. A fortran program, adapted from code kindly provided by Simon Johnston, is made available for this purpose.
  
 There are 5 python scripts
 1. 'python_functions.py' : Contains all the PsrPopPy2 functions needed.
