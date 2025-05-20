@@ -31,7 +31,7 @@ An installation of PsrPopPy2 is required due to some fortran shared libraries wh
 PsrPopPy & PsrPopPy2
 --------
 
-PsrPopPy is python implementation of PSRPOP (written by Duncan Lorimer, see [2006MNRAS.372..777L](https://doi.org/10.1111/j.1365-2966.2006.10887.x); [arXiv:astro-ph/0607640](https://arxiv.org/abs/astro-ph/0607640) for details) written by Sam Bates (2014, [2014MNRAS.439.2893B](https://doi.org/10.1093/mnras/stu157); [arXiv:1311.3427](https://arxiv.org/abs/1311.3427)). Its github repository and documentation can be found at http://samb8s.github.com/PsrPopPy/.
+PsrPopPy is the python implementation of PSRPOP (written by Duncan Lorimer, see [2006MNRAS.372..777L](https://doi.org/10.1111/j.1365-2966.2006.10887.x); [arXiv:astro-ph/0607640](https://arxiv.org/abs/astro-ph/0607640) for details) written by Sam Bates (2014, [2014MNRAS.439.2893B](https://doi.org/10.1093/mnras/stu157); [arXiv:1311.3427](https://arxiv.org/abs/1311.3427)). Its github repository and documentation can be found at http://samb8s.github.com/PsrPopPy/.
 
 PsrPopPy2 added additional functionality to PsrPopPy. More details and installation instructions can be found at https://github.com/devanshkv/PsrPopPy2.
 
