@@ -41,12 +41,12 @@ epsilon = [math.acos(random.random()) for _ in range(len(df_result))]
 df_result['epsilon'] = epsilon
 
 #Read the Fermi-LAT sensitivity map and find the sensitivity at the position of each psrpoppy generated msp
-NewTobySensitivMap = hp.read_map(path_fermi_map)
+sensitivity_map = hp.read_map(path_fermi_map)
 
 gl = np.array(df_result['gl'])
 gb = np.array(df_result['gb'])
 
-sens_calc = lambda l, b : hp.get_interp_val(NewTobySensitivMap, l, b, lonlat=True)
+sens_calc = lambda l, b : hp.get_interp_val(sensitivity_map, l, b, lonlat=True)
 df_result['sens_limit'] = np.float64(sens_calc(gl, gb))
 
 #Define functions to find luminosties using different models, flux and edot below.

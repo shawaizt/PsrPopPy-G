@@ -46,12 +46,12 @@ df_result['p_s'] = df_result['p_ms'] / 1000.0
 
 
 #Read the Fermi-LAT sensitivity map and find the sensitivity at the position of each psrpoppy generated msp
-NewTobySensitivMap = hp.read_map(path_fermi_map)
+sensitivity_map = hp.read_map(path_fermi_map)
 
 gl = np.array(df_result['gl'])
 gb = np.array(df_result['gb'])
 
-sens_calc = lambda l, b : hp.get_interp_val(NewTobySensitivMap, l, b, lonlat=True)
+sens_calc = lambda l, b : hp.get_interp_val(sensitivity_map, l, b, lonlat=True)
 df_result['sens_limit'] = np.float64(sens_calc(gl, gb))
 
 
