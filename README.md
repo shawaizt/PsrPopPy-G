@@ -41,7 +41,7 @@ MSPs:
 Update the 'minipsrpoppy-msp.py' script with the appropriate paths for 'path_out', 'surveys_path' and 'fortran_path'. Then run the script. It will output two CSV files; 'all-radio.csv' and 'detect-radio.csv'.
 'all-radio.csv' contains all pulsars beaming towards Earth that were generated. 'detect-radio.csv' contains only those pulsars which were detectable by the radio surveys specified, which should be 92 pulsars for with the default surveys.
 
-Next, to apply gamma-ray selection effects, use the 'gammaray-filter-msp.py' script. Update 'path', 'path_out' and 'path_fermi_map' with path to the outputs from running previous script, path where to store final outputs and path where the Fermi-LAT sensitivity map is located respectively. This script outputs CSV files which contain pulsars detectable by Fermi-LAT based on a specific gamma-ray luminosity model.
+Next, to apply gamma-ray selection effects, use the 'gammaray-filter-msp.py' script. Update 'path', 'path_out' and 'path_fermi_map' with path to the outputs from running previous script, path where to store final outputs and path where the Fermi-LAT sensitivity map is located respectively. The Fermi-LAT All-sky sensitivity map can be obtained from the [3PC webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/3rd_PSR_catalog/). This script outputs CSV files which contain pulsars detectable by Fermi-LAT based on a specific gamma-ray luminosity model.
 
 CPs:
 
