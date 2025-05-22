@@ -111,7 +111,7 @@ def g_lum_bpl(u, alpha1, alpha2, l_min, l_max, l_break):
     divison_val = i1 * k
     
     #following the method of https://github.com/grburgess/brokenpl_sample/blob/master/sample_broken_power_law.ipynb 
-    #where they use bernolulli trials and booleans instead of an if/else.
+    #where they use bernoulli trials and booleans instead of an if/else.
     
     y = np.empty_like(u)
     idx = stats.bernoulli.rvs(divison_val, size=len(u)).astype(bool)
